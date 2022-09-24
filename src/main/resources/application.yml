@@ -14,6 +14,10 @@ spring:
     host: localhost
     port: 6379
     database: 0
+  cache:
+    redis:
+      time-to-live: 1800000 #缓存生存时间 单位:ms
+    type: redis
 #  mvc:
 #    hiddenmethod:
 #      filter:

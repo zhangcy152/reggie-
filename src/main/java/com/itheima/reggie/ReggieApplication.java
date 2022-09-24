@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ServletComponentScan //扫描filter包下的  @WebFilter修饰的类
 @EnableTransactionManagement //开始事务
-//@EnableCaching //打开缓存功能
+@EnableCaching //打开缓存功能
 public class ReggieApplication {
     public static void main(String[] args){
 
