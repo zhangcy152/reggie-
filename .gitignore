@@ -1,7 +1,7 @@
 .git
 logs
 rebel.xml
-target/
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 log.path_IS_UNDEFINED
 .DS_Store
@@ -14,7 +14,12 @@ offine_user.md
 .project
 .settings
 .springBeans
-
+*.jar
+*.war
+*.ear
+/.settings/
+/.classpath
+.class
 
 ### Example user template template
 ### Example user template
